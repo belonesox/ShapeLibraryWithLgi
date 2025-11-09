@@ -1,13 +1,11 @@
 return {
 [1] = {
-    name = "Page Decoration",
+    name = "Chemistry",
     shapes = {
-        [1] = { name = "Border Booklet", shapeName = "borderBooklet" },
-        [2] = { name = "Star (wire)", shapeName = "hollowStar" },
-        [3] = { name = "Star (solid)", shapeName = "solidStar" },
-        [4] = { name = "Curly Arrow", shapeName = "curlyArrow" },
-        [5] = { name = "Comment Box", shapeName = "commentBoxRectangular" },
-        [6] = { name = "Comment Box", shapeName = "commentBoxOval" },
+        [1] = { name = "Benzene (RS)", shapeName = "benzene(rs)" },
+        [2] = { name = "Benzene-1", shapeName = "benzene-1" },
+        [3] = { name = "Benzene-2", shapeName = "benzene-2" },
+        [4] = { name = "Cyclopentane", shapeName = "cyclopentane" },
     },
 },
 [2] = {
@@ -68,12 +66,14 @@ return {
     },
 },
 [7] = {
-    name = "Chemistry",
+    name = "Page Decoration",
     shapes = {
-        [1] = { name = "Benzene (RS)", shapeName = "benzene(rs)" },
-        [2] = { name = "Benzene-1", shapeName = "benzene-1" },
-        [3] = { name = "Benzene-2", shapeName = "benzene-2" },
-        [4] = { name = "Cyclopentane", shapeName = "cyclopentane" },
+        [1] = { name = "Border Booklet", shapeName = "borderBooklet" },
+        [2] = { name = "Star (wire)", shapeName = "hollowStar" },
+        [3] = { name = "Star (solid)", shapeName = "solidStar" },
+        [4] = { name = "Curly Arrow", shapeName = "curlyArrow" },
+        [5] = { name = "Comment Box", shapeName = "commentBoxRectangular" },
+        [6] = { name = "Comment Box", shapeName = "commentBoxOval" },
     },
 },
 }
